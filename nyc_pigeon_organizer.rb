@@ -13,7 +13,7 @@ final_results = data.each_with_object({}) do |(key, value), final_array|
  final_array[name][key].push(inner_key)
  end
 end
-final_array
+final_results
 end
 binding.pry
 end
